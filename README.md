@@ -11,6 +11,39 @@ The goal of this repository is to:
 
 ---
 
+## Use Case Diagrams
+
+### What are Use Case Diagrams?
+A **Use Case Diagram** is a visual representation of how different users (actors) interact with a system to achieve specific goals. It helps in identifying system functionalities and clarifying user interactions early in the requirement analysis phase.
+
+### Benefits of Use Case Diagrams
+- **Simplifies Communication:** Helps non-technical stakeholders understand system functionality at a glance.  
+- **Identifies Key Interactions:** Shows how each actor interacts with different parts of the system.  
+- **Aids in Requirement Validation:** Ensures that all functional requirements are captured and aligned with user needs.  
+
+### Booking System Use Case Diagram
+Below is a use case diagram for a **Hotel Booking Management System**, inspired by the [Medium case study](https://medium.com/nerd-for-tech/system-design-architecture-for-hotel-booking-apps-like-airbnb-oyo-6efb4f4dddd7).
+
+**Actors:**
+- Customer  
+- Hotel Manager  
+- Payment Gateway  
+- System Administrator  
+
+**Use Cases:**
+- Search for Hotels  
+- View Hotel Details  
+- Make Booking  
+- Process Payment  
+- Manage Hotel Listings  
+- View Booking History  
+- Receive Notifications  
+
+![Booking System Use Case Diagram](./alx-booking-uc.png)
+
+
+---
+
 ## What is Requirement Analysis?
 
 **Requirement Analysis** is the process of identifying, gathering, and defining the needs and expectations of stakeholders for a new or modified software system. It serves as the foundation for designing, developing, and testing software solutions that meet user and business requirements.
