@@ -55,3 +55,27 @@ When requirements are accurately captured and validated, the resulting software 
 
 ### 4. Provides a Basis for Validation and Testing
 Clear, measurable requirements serve as the foundation for test case creation and system validation. This ensures that every feature developed can be traced back to a specific requirement, improving accountability and quality assurance.
+
+---
+
+## Key Activities in Requirement Analysis
+
+The Requirement Analysis phase consists of several structured activities that help ensure all system needs are clearly defined, well-documented, and validated before development begins. Below are the **five key activities** involved:
+
+- **1. Requirement Gathering**  
+  This activity involves collecting all possible requirements from stakeholders such as clients, users, and business managers. The main goal is to understand the problem domain and identify what the users expect from the system.  
+  *Example:* Conducting meetings, interviews, or surveys to gather user expectations.
+
+- **2. Requirement Elicitation**  
+  Elicitation focuses on uncovering hidden, implicit, or overlooked requirements through deeper interaction with stakeholders. It uses techniques such as brainstorming, workshops, prototyping, and observation.  
+  *Example:* Using prototypes or mock-ups to help users visualize system behavior.
+
+- **3. Requirement Documentation**  
+  Once gathered and elicited, all requirements are formally documented in a clear and organized manner, often in a **Software Requirement Specification (SRS)** document. This ensures that all stakeholders have a common reference point for the project’s scope and expectations.
+
+- **4. Requirement Analysis and Modeling**  
+  In this step, requirements are analyzed for feasibility, consistency, and completeness. Analysts may use diagrams, flowcharts, or models (such as use case diagrams or data flow diagrams) to represent requirements visually and identify potential conflicts or gaps.
+
+- **5. Requirement Validation**  
+  The final step involves reviewing and verifying requirements with stakeholders to ensure they are accurate, complete, and aligned with business goals. Validation ensures that the documented requirements truly reflect user needs before moving to the design phase.  
+  *Example:* Conducting review sessions or walkthroughs with stakeholders.
