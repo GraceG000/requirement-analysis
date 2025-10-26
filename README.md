@@ -79,3 +79,26 @@ The Requirement Analysis phase consists of several structured activities that he
 - **5. Requirement Validation**  
   The final step involves reviewing and verifying requirements with stakeholders to ensure they are accurate, complete, and aligned with business goals. Validation ensures that the documented requirements truly reflect user needs before moving to the design phase.  
   *Example:* Conducting review sessions or walkthroughs with stakeholders.
+
+---
+
+## Types of Requirements
+
+### Functional Requirements  
+Functional requirements define **what the system must do**, i.e. the behaviors or functions of the system. For the booking-management project (based on the case study of a hotel-booking app) some examples include:  
+- The system shall allow a user to search for available hotels by location, date, number of guests.  
+- The system shall allow a user to view hotel details including rooms, amenities, pricing, and reviews.  
+- The system shall allow a user to book a selected room, specifying check-in and check-out dates, number of guests, and payment method.  
+- The system shall generate a confirmation and send it to the user via email or push notification after successful booking.  
+- The system shall allow hotel owners/managers to list new hotels, add room types, set availability and pricing (as described in the case study). :contentReference[oaicite:0]{index=0}  
+
+### Non-functional Requirements  
+Non-functional requirements define **how the system performs the functions**, i.e. quality attributes, constraints and performance criteria. For the same booking‐management project examples include:  
+- Performance: The system shall respond to search and filter requests within 2 seconds under peak load.  
+- Scalability: The system shall support at least 1 million concurrent users and 100 000 bookings per hour (similar to the architecture discussion). :contentReference[oaicite:1]{index=1}  
+- Availability & Reliability: The system shall be available 99.9% of the time and recover from failure within 5 minutes.  
+- Usability: The system shall provide an intuitive user interface that allows new users to complete a booking within 3 minutes without training.  
+- Security: The system shall encrypt user payment data in transit and at rest, and enforce role-based access control for hotel-manager portals.  
+- Maintainability: The system modules shall allow addition of new features (e.g., promotional offers, dynamic pricing) without major refactoring.  
+
+
