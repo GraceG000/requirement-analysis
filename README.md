@@ -101,4 +101,30 @@ Non-functional requirements define **how the system performs the functions**, i.
 - Security: The system shall encrypt user payment data in transit and at rest, and enforce role-based access control for hotel-manager portals.  
 - Maintainability: The system modules shall allow addition of new features (e.g., promotional offers, dynamic pricing) without major refactoring.  
 
+---
+
+## Acceptance Criteria
+
+### Importance of Acceptance Criteria
+**Acceptance Criteria** are the predefined conditions that a software product or feature must meet to be accepted by stakeholders, product owners, or end-users. They serve as a clear benchmark for determining whether a requirement has been successfully implemented and is ready for delivery.
+
+In the context of **Requirement Analysis**, acceptance criteria help to:
+- **Clarify Expectations:** Ensure that both developers and stakeholders have a shared understanding of what “done” means for each feature.  
+- **Improve Quality Assurance:** Provide a foundation for test cases and validation, ensuring the developed functionality aligns with business goals.  
+- **Reduce Miscommunication:** Minimize misunderstandings by translating abstract requirements into measurable and testable statements.  
+- **Support Agile Practices:** Act as a checklist for product owners and QA teams during sprint reviews and user acceptance testing (UAT).
+
+### Example: Checkout Feature in the Booking Management System
+
+**Feature:** Checkout Process  
+
+**Acceptance Criteria:**
+1. The system shall display all booking details, including hotel name, room type, dates, and total cost, before checkout.  
+2. The user shall be able to select a payment method (credit card, debit card, or digital wallet).  
+3. The system shall validate payment details and show an appropriate error message if invalid data is entered.  
+4. The system shall confirm successful payment by displaying a booking confirmation message and sending a confirmation email to the user.  
+5. The checkout process shall be completed within 10 seconds under normal network conditions.  
+
+These criteria ensure that the **Checkout feature** not only functions correctly but also meets performance and usability expectations — providing a consistent and reliable user experience.
+
 
