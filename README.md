@@ -131,7 +131,7 @@ Below is a use case diagram for a **Hotel Booking Management System**, inspired 
 - View Booking History  
 - Receive Notifications  
 
-<img width="1536" height="1024" alt="image" src="alx-booking-uc.png" />
+<img width="1536" height="1024" alt="image" src="alx-booking-uc.png.png" />
 
 
 ---
