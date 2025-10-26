@@ -90,12 +90,12 @@ Functional requirements define **what the system must do**, i.e. the behaviors o
 - The system shall allow a user to view hotel details including rooms, amenities, pricing, and reviews.  
 - The system shall allow a user to book a selected room, specifying check-in and check-out dates, number of guests, and payment method.  
 - The system shall generate a confirmation and send it to the user via email or push notification after successful booking.  
-- The system shall allow hotel owners/managers to list new hotels, add room types, set availability and pricing (as described in the case study). :contentReference[oaicite:0]{index=0}  
+- The system shall allow hotel owners/managers to list new hotels, add room types, set availability and pricing (as described in the case study).   
 
 ### Non-functional Requirements  
 Non-functional requirements define **how the system performs the functions**, i.e. quality attributes, constraints and performance criteria. For the same booking‐management project examples include:  
 - Performance: The system shall respond to search and filter requests within 2 seconds under peak load.  
-- Scalability: The system shall support at least 1 million concurrent users and 100 000 bookings per hour (similar to the architecture discussion). :contentReference[oaicite:1]{index=1}  
+- Scalability: The system shall support at least 1 million concurrent users and 100 000 bookings per hour (similar to the architecture discussion). 
 - Availability & Reliability: The system shall be available 99.9% of the time and recover from failure within 5 minutes.  
 - Usability: The system shall provide an intuitive user interface that allows new users to complete a booking within 3 minutes without training.  
 - Security: The system shall encrypt user payment data in transit and at rest, and enforce role-based access control for hotel-manager portals.  
